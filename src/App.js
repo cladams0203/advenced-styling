@@ -38,7 +38,6 @@ function App() {
   useEffect(() => {
     setData(ApiCall(date))
   }, [date])
-  console.log(data)
   return (
     <div className="App">
     <ImgCarousel imgData={data} />
